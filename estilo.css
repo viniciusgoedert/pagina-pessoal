@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.sobre-mim, .galeria {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sobre-mim {
+    float: left;
+}
+
+.galeria {
+    float: right;
+}
+
+.galeria ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.galeria li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer {
+    clear: both;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
